@@ -116,7 +116,7 @@ ELASTICSEARCH_STRICTNESS = os.environ.get("ELASTICSEARCH_STRICTNESS", SEARCH_STR
 ELASTICSEARCH_EMBEDDING_MODEL_ID = os.environ.get("ELASTICSEARCH_EMBEDDING_MODEL_ID")
 
 # Frontend Settings via Environment Variables
-AUTH_ENABLED = os.environ.get("AUTH_ENABLED", "true").lower() == "true"
+AUTH_ENABLED = os.environ.get("AUTH_ENABLED", "false").lower() == "false"
 frontend_settings = { 
     "auth_enabled": AUTH_ENABLED, 
     "feedback_enabled": AZURE_COSMOSDB_ENABLE_FEEDBACK and AZURE_COSMOSDB_DATABASE not in [None, ""],
