@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\backend",
+    "\\frontend",
+    "\\frontend\\public",
+    "\\frontend\\src",
+    "\\frontend\\src\\assets",
+    "\\frontend\\src\\pages",
+    "\\frontend\\src\\pages\\chat",
+    "\\frontend\\src\\pages\\layout",
+    "\\static",
+    "\\static\\assets"
+  ],
+  "SelectedNode": "\\frontend\\src\\index.tsx",
+  "PreviewInSolutionExplorer": false
+}
