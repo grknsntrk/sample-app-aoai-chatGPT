@@ -2,7 +2,6 @@ import argparse
 import subprocess
 
 from azure.identity import AzureDeveloperCliCredential
-from azure.identity import DefaultAzureCredential
 import urllib3
 
 
@@ -75,7 +74,7 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
 
-    credential = DefaultAzureCredential()
+    credential = AzureDeveloperCliCredential()
 
     if args.appid and args.appid != "no-id":
         print(f"Checking if application {args.appid} exists")
