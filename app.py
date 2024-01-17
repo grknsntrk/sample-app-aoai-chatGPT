@@ -174,7 +174,7 @@ def parse_multi_columns(columns: str) -> list:
         return columns.split("|")
     else:
         return columns.split(",")
-"""
+
 def fetchUserGroups(userToken, nextLink=None):
     # Recursively fetch group membership
     if nextLink:
@@ -201,7 +201,7 @@ def fetchUserGroups(userToken, nextLink=None):
     except Exception as e:
         logging.error(f"Exception in fetchUserGroups: {e}")
         return []
-  """  
+    
 
 def generateFilterString(userToken):
     # Get list of groups user is a member of
