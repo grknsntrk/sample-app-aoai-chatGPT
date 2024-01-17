@@ -1,17 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\backend",
     "\\frontend",
     "\\frontend\\public",
     "\\frontend\\src",
     "\\frontend\\src\\assets",
+    "\\frontend\\src\\components",
+    "\\frontend\\src\\components\\Answer",
     "\\frontend\\src\\pages",
     "\\frontend\\src\\pages\\chat",
-    "\\frontend\\src\\pages\\layout",
-    "\\static",
     "\\static\\assets"
   ],
-  "SelectedNode": "\\frontend\\src\\index.tsx",
+  "SelectedNode": "\\frontend\\src\\pages\\chat\\Chat.module.css",
   "PreviewInSolutionExplorer": false
 }
